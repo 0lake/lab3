@@ -67,11 +67,7 @@ public abstract class Human implements Weight {
         return 1000 * this.name.hashCode() - 7;
     }
 
-    @Override
-    public String toString() {
-        // Выводим сообщение с именем при вызове toString()
-        return "Person: {" + "Person name = '" + this.getName() + '\'' + '}';
-    }
+
 
     @Override
     public boolean equals(Object o) {
